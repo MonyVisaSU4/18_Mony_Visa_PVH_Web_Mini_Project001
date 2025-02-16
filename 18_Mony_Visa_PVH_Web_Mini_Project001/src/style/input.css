@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+.suwannaphum-regular {
+    font-family: "Suwannaphum", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.titillium-web-regular {
+  font-family: "Titillium Web", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.chakra-petch-regular {
+  font-family: "Chakra Petch", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.chakra-petch-medium {
+  font-family: "Chakra Petch", serif;
+  font-weight: 500;
+  font-style: normal;
+}
