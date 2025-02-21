@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ProductDetails</title>
+    <title>ShoppingCurt</title>
     <link rel="stylesheet" href="./style/output.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div id="containe">
+    <div id="container">
         <header>
             <div id="firsthead" class="flex justify-evenly suwannaphum-regular text-sm pt-1.5 pb-1.5 items-center bg-purple-600 text-white">
                 <div id="contactAndEmail" class="flex">
@@ -101,7 +101,7 @@
                         </li>
                         <li>
                             <p>
-                                <a href="ShoppingCurt.html">Pages</a>
+                                <a href="#">Pages</a>
                             </p>
                         </li>
                         <li>
@@ -146,123 +146,206 @@
         </header>
         <div id="body">
             <div id="ShopListStart" class="pt-[5.5%] pb-[6.5%] pl-[20%] bg-purple-50">
-                <p class="text-2xl font-bold">Product Details</p>
+                <p class="text-2xl font-bold">Shopping Curt</p>
                 <span class="text-xs font-medium"><a href="index.html">Home</a> . Pages</span>
-                <span class="text-pink-500 text-xs font-medium">. Product Details</span>
+                <span class="text-pink-500 text-xs font-medium">. Shopping Curt</span>
             </div>
-            <div class="pt-[5%] pl-[13%]">
-                <div class="w-200 shadow-xl h-87 bg-white flex items-center">
-                    <div class="flex items-center pl-[1.5%]">
-                        <div class="flex flex-col gap-y-10">
-                            <div class="w-20 h-20 bg-center bg-cover bg-no-repeat bg-[url('https://www.matthews.com.ph/cdn/shop/files/Moira_Black_WhenWorn_1536x.jpg?v=1686789938')]"></div>
-                            <div class="w-20 h-20 bg-center bg-cover bg-no-repeat bg-[url('https://www.matthews.com.ph/cdn/shop/files/Moira_Black_WhenWorn_1536x.jpg?v=1686789938')]"></div>
-                            <div class="w-20 h-20 bg-center bg-cover bg-no-repeat bg-[url('https://www.matthews.com.ph/cdn/shop/files/Moira_Black_WhenWorn_1536x.jpg?v=1686789938')]"></div>
-                        </div>
-                        <div class="pl-[4%]">
-                            <div class="w-55 h-80 bg-center bg-cover bg-no-repeat bg-[url('https://www.kalkstore.com/cdn/shop/articles/KL_WEB_BLOG_PORTADA_4420x2400_df689793-0c08-4d64-8872-7b415597a5ac_1200x1200_crop_center.jpg?v=1654701916')]"></div>
-                        </div>
-                    </div>
-                    <div class="pl-[4.5%] pt-[5%] pb-[5%]">
-                        <p class="font-bold text-blue-900 text-xl">Playwood arm chair</p>
-                        <span class="text-xs text-yellow-400">&nbsp;&#9733&nbsp;&#9733&nbsp;&#9733&nbsp;&#9733&nbsp;&#9733&nbsp;<span class="text-blue-700 font-medium">(22)</span></span>
-                        <p>
-                            <span class="text-blue-900 text-sm font-medium">$32.00&nbsp;&nbsp;&nbsp;</span>
-                            <span class="text-pink-500 font-medium text-sm line-through">$39.00</span>
-                        </p>
-                        <p class="text-sm font-medium text-blue-900 pt-[1%] pb-[1%]">Color</p>
-                        <p class="text-gray-400 text-xs pb-[3%] pt-[0.5%]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, et.</p>
-                        <p><span class="text-blue-900 text-sm font-medium pl-[13%]">Add To Cart</span> <span class="text-blue-900 text-lg font-medium pl-[5%]">&#9825</span></p>
-                        <p class="text-blue-900 text-sm font-medium pt-[4%] pb-[2%]">Categories</p>
-                        <p class="text-blue-900 text-sm font-medium pb-[2%]">Tags</p>
-                        <p>
-                            <span class="text-blue-900 text-sm font-medium pr-[3%]">Share</span>
-                            <span class="bg-center bg-contain bg-no-repeat bg-[url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Facebook_Logo_2023.png/1024px-Facebook_Logo_2023.png')] h-5 w-5 text-transparent">p</span>
-                            <span class="bg-center bg-contain bg-no-repeat bg-[url('https://static.vecteezy.com/system/resources/previews/016/716/450/non_2x/tiktok-icon-free-png.png')] h-5 w-5 text-transparent">p</span>
-                            <span class="bg-center bg-contain bg-no-repeat bg-[url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png')] h-5 w-5 text-transparent">p</span>
-                        </p>
-                    </div>
+            <div id="curt" class="pt-[7%]">
+                <div id="curtController" class="w-full h-auto">
+                    <table class="flex justify-center">
+                        <tr class="h-15">
+                            <td class="w-50">
+                                <p class="font-bold text-blue-900">Product</p>
+                            </td>
+                            <td class="w-20 text-center">
+                                <p class="font-bold text-blue-900">Price</p>
+                            </td>
+                            <td class="w-30 text-center">
+                                <p class="font-bold text-blue-900">Quantity</p>
+                            </td>
+                            <td class="w-20 text-center">
+                                <p class="font-bold text-blue-900">Total</p>
+                            </td>
+                            <td>
+                                <p class="font-bold text-blue-900">Cart Total</p>
+                            </td>
+                        </tr>
+                        <tr class="h-15">
+                            <td>
+                                <div id="card" class="flex pt-[5%] pb-[5%]">
+                                    <div id="pic" class="w-15 h-15 bg-[url('https://static01.nyt.com/images/2024/10/13/fashion/DACHSHUND-BAG/DACHSHUND-BAG-mediumSquareAt3X.jpg')] bg-center bg-contain bg-no-repeat"></div>
+                                    <div class="pl-[5%] relative">
+                                        <div class="absolute -left-[6%] -top-[20%]">
+                                            <p>
+                                                <span class="text-xs">&#9746</span>
+                                            </p>
+                                        </div>
+                                        <p class="text-[10px] font-medium text-blue-900">Watch Realing King</p>
+                                        <p class="text-[9px] font-medium text-gray-400">Code Frozen</p>
+                                        <p class="text-[9px] font-medium text-gray-400">Size XL</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="w-20 text-center">
+                                <p class="font-medium text-blue-900 text-xs">$32.00</p>
+                            </td>
+                            <td class="w-30 text-center">
+                                <p></p>
+                            </td>
+                            <td class="w-20 text-center">
+                                <p class="font-medium text-blue-900 text-xs">$299.00</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                        </tr>
+                        <tr class="h-15">
+                            <td>
+                                <div id="card" class="flex pt-[5%] pb-[5%]">
+                                    <div id="pic" class="w-15 h-15 bg-[url('https://static01.nyt.com/images/2024/10/13/fashion/DACHSHUND-BAG/DACHSHUND-BAG-mediumSquareAt3X.jpg')] bg-center bg-contain bg-no-repeat"></div>
+                                    <div class="pl-[5%] relative">
+                                        <div class="absolute -left-[6%] -top-[20%]">
+                                            <p>
+                                                <span class="text-xs">&#9746</span>
+                                            </p>
+                                        </div>
+                                        <p class="text-[10px] font-medium text-blue-900">Watch Realing King</p>
+                                        <p class="text-[9px] font-medium text-gray-400">Code Frozen</p>
+                                        <p class="text-[9px] font-medium text-gray-400">Size XL</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="w-20 text-center">
+                                <p class="font-medium text-blue-900 text-xs">$22.00</p>
+                            </td>
+                            <td class="w-30 text-center">
+                                <p></p>
+                            </td>
+                            <td class="w-20 text-center">
+                                <p class="font-medium text-blue-900 text-xs">$399.00</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                        </tr>
+                        <tr class="h-15">
+                            <td>
+                                <div id="card" class="flex pt-[5%] pb-[5%]">
+                                    <div id="pic" class="w-15 h-15 bg-[url('https://static01.nyt.com/images/2024/10/13/fashion/DACHSHUND-BAG/DACHSHUND-BAG-mediumSquareAt3X.jpg')] bg-center bg-contain bg-no-repeat"></div>
+                                    <div class="pl-[5%] relative">
+                                        <div class="absolute -left-[6%] -top-[20%]">
+                                            <p>
+                                                <span class="text-xs">&#9746</span>
+                                            </p>
+                                        </div>
+                                        <p class="text-[10px] font-medium text-blue-900">Watch Realing King</p>
+                                        <p class="text-[9px] font-medium text-gray-400">Code Frozen</p>
+                                        <p class="text-[9px] font-medium text-gray-400">Size XL</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="w-20 text-center">
+                                <p class="font-medium text-blue-900 text-xs">$43.00</p>
+                            </td>
+                            <td class="w-30 text-center">
+                                <p></p>
+                            </td>
+                            <td class="w-20 text-center">
+                                <p class="font-medium text-blue-900 text-xs">$599.00</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                        </tr>
+                        <tr class="h-15">
+                            <td>
+                                <div id="card" class="flex pt-[5%] pb-[5%]">
+                                    <div id="pic" class="w-15 h-15 bg-[url('https://static01.nyt.com/images/2024/10/13/fashion/DACHSHUND-BAG/DACHSHUND-BAG-mediumSquareAt3X.jpg')] bg-center bg-contain bg-no-repeat"></div>
+                                    <div class="pl-[5%] relative">
+                                        <div class="absolute -left-[6%] -top-[20%]">
+                                            <p>
+                                                <span class="text-xs">&#9746</span>
+                                            </p>
+                                        </div>
+                                        <p class="text-[10px] font-medium text-blue-900">Watch Realing King</p>
+                                        <p class="text-[9px] font-medium text-gray-400">Code Frozen</p>
+                                        <p class="text-[9px] font-medium text-gray-400">Size XL</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="w-20 text-center">
+                                <p class="font-medium text-blue-900 text-xs">$12.00</p>
+                            </td>
+                            <td class="w-30 text-center">
+                                <p></p>
+                            </td>
+                            <td class="w-20 text-center">
+                                <p class="font-medium text-blue-900 text-xs">$877.00</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                        </tr>
+                        <tr class="h-15">
+                            <td>
+                                <div id="card" class="flex pt-[5%] pb-[5%]">
+                                    <div id="pic" class="w-15 h-15 bg-[url('https://static01.nyt.com/images/2024/10/13/fashion/DACHSHUND-BAG/DACHSHUND-BAG-mediumSquareAt3X.jpg')] bg-center bg-contain bg-no-repeat"></div>
+                                    <div class="pl-[5%] relative">
+                                        <div class="absolute -left-[6%] -top-[20%]">
+                                            <p>
+                                                <span class="text-xs">&#9746</span>
+                                            </p>
+                                        </div>
+                                        <p class="text-[10px] font-medium text-blue-900">Watch Realing King</p>
+                                        <p class="text-[9px] font-medium text-gray-400">Code Frozen</p>
+                                        <p class="text-[9px] font-medium text-gray-400">Size XL</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="w-20 text-center">
+                                <p class="font-medium text-blue-900 text-xs">$67.00</p>
+                            </td>
+                            <td class="w-30 text-center">
+                                <p></p>
+                            </td>
+                            <td class="w-20 text-center">
+                                <p class="font-medium text-blue-900 text-xs">$777.00</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                        </tr>
+                        <tr class="h-15">
+                            <td>
+                                <div id="card" class="flex pt-[5%] pb-[5%]">
+                                    <div id="pic" class="w-15 h-15 bg-[url('https://static01.nyt.com/images/2024/10/13/fashion/DACHSHUND-BAG/DACHSHUND-BAG-mediumSquareAt3X.jpg')] bg-center bg-contain bg-no-repeat"></div>
+                                    <div class="pl-[5%] relative">
+                                        <div class="absolute -left-[6%] -top-[20%]">
+                                            <p>
+                                                <span class="text-xs">&#9746</span>
+                                            </p>
+                                        </div>
+                                        <p class="text-[10px] font-medium text-blue-900">Watch Realing King</p>
+                                        <p class="text-[9px] font-medium text-gray-400">Code Frozen</p>
+                                        <p class="text-[9px] font-medium text-gray-400">Size XL</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="w-20 text-center">
+                                <p class="font-medium text-blue-900 text-xs">$99.00</p>
+                            </td>
+                            <td class="w-30 text-center">
+                                <p></p>
+                            </td>
+                            <td class="w-20 text-center">
+                                <p class="font-medium text-blue-900 text-xs">$935.00</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
-            </div>
-            <div id="Descrip" class="pt-[7%]">
-                <div class="bg-purple-50 w-full h-auto pb-[5%] pt-[5%] pl-[15%] pr-[15%]">
-                    <div>
-                        <p class="text-base font-medium text-blue-900">
-                            <span class="underline">Description</span>
-                            <span class="pl-[5%] pr-[5%]">Additional Info</span>
-                            <span class="pr-[5%]">Reviews</span>
-                            <span>Video</span>
-                        </p>
-                    </div>
-                    <div class="pt-[4%]">
-                        <p class="text-sm pb-[1%] font-medium text-blue-900">Vorius tempor</p>
-                        <p class="text-xs text-gray-400">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni eligendi quis quaerat rem nisi. Dolorum, adipisci! Nemo, facere? Voluptate, quisquam.
-                        </p>
-                    </div>
-                    <div>
-                        <p class="text-sm pt-[2%] pb-[1%] font-medium text-blue-900">More details</p>
-                        <ul class="text-xs text-gray-400 pl-1">
-                            <li class="pb-[1%]"><span class="text-black pr-1.5">&#10140</span>Lorem ipsum dolor sit amet consectetur.</li>
-                            <li class="pb-[1%]"><span class="text-black pr-1.5">&#10140</span>Lorem ipsum dolor sit amet consectetur.</li>
-                            <li class="pb-[1%]"><span class="text-black pr-1.5">&#10140</span>Lorem ipsum dolor sit amet consectetur.</li>
-                            <li><span class="text-black pr-1.5">&#10140</span>Lorem ipsum dolor sit amet consectetur.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div id="RelatedProduct" class="pt-[5%] flex justify-center">
-                <div>
-                    <p class="font-bold text-2xl pb-[3.5%] text-blue-800">Related Products</p>
-                    <div class="flex gap-x-[2%]">
-                        <div id="product">
-                            <div id="pic" class="w-34 h-45 bg-center bg-cover bg-no-repeat bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqnsR0WwUGF2F4hNF-pPDjXBIi69B9OQYkZQ&s')]"></div>
-                            <p class="w-40">
-                                <span class="text-[9px] text-blue-900 font-medium">Mem Freedoms</span>
-                                <span id="star">
-                                    <span class="text-xs text-yellow-400">&nbsp;&#9733&nbsp;&#9733&nbsp;&#9733&nbsp;&#9733&nbsp;<span class="text-gray-400 font-medium">&#9733&nbsp;</span></span>
-                                </span>
-                            </p>
-                            <p class="text-blue-900 font-medium text-[9px]">$42.00</p>
-                        </div>
-                        <div id="product">
-                            <div id="pic" class="w-34 h-45 bg-center bg-cover bg-no-repeat bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqnsR0WwUGF2F4hNF-pPDjXBIi69B9OQYkZQ&s')]"></div>
-                            <p class="w-40">
-                                <span class="text-[9px] text-blue-900 font-medium">Mem Freedoms</span>
-                                <span id="star">
-                                    <span class="text-xs text-yellow-400">&nbsp;&#9733&nbsp;&#9733&nbsp;&#9733&nbsp;&#9733&nbsp;<span class="text-gray-400 font-medium">&#9733&nbsp;</span></span>
-                                </span>
-                            </p>
-                            <p class="text-blue-900 font-medium text-[9px]">$42.00</p>
-                        </div>
-                        <div id="product">
-                            <div id="pic" class="w-34 h-45 bg-center bg-cover bg-no-repeat bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqnsR0WwUGF2F4hNF-pPDjXBIi69B9OQYkZQ&s')]"></div>
-                            <p class="w-40">
-                                <span class="text-[9px] text-blue-900 font-medium">Mem Freedoms</span>
-                                <span id="star">
-                                    <span class="text-xs text-yellow-400">&nbsp;&#9733&nbsp;&#9733&nbsp;&#9733&nbsp;&#9733&nbsp;<span class="text-gray-400 font-medium">&#9733&nbsp;</span></span>
-                                </span>
-                            </p>
-                            <p class="text-blue-900 font-medium text-[9px]">$42.00</p>
-                        </div>
-                        <div id="product">
-                            <div id="pic" class="w-34 h-45 bg-center bg-cover bg-no-repeat bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqnsR0WwUGF2F4hNF-pPDjXBIi69B9OQYkZQ&s')]"></div>
-                            <p class="w-40">
-                                <span class="text-[9px] text-blue-900 font-medium">Mem Freedoms</span>
-                                <span id="star">
-                                    <span class="text-xs text-yellow-400">&nbsp;&#9733&nbsp;&#9733&nbsp;&#9733&nbsp;&#9733&nbsp;<span class="text-gray-400 font-medium">&#9733&nbsp;</span></span>
-                                </span>
-                            </p>
-                            <p class="text-blue-900 font-medium text-[9px]">$42.00</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="branding" class="flex justify-center gap-[0.5%] pt-[7%]">
-                <div class="bg-[url('https://cdn.freebiesupply.com/logos/large/2x/louis-vuitton-1-logo-png-transparent.png')] bg-contain bg-no-repeat bg-center w-40 h-10"></div>
-                <div class="bg-red-300 bg-contain bg-no-repeat bg-center w-40 h-10"></div>
-                <div class="bg-red-300 bg-contain bg-no-repeat bg-center w-40 h-10"></div>
-                <div class="bg-red-300 bg-contain bg-no-repeat bg-center w-40 h-10"></div>
-                <div class="bg-red-300 bg-contain bg-no-repeat bg-center w-40 h-10"></div>
             </div>
         </div>
         <footer class="pt-[6.5%]">
