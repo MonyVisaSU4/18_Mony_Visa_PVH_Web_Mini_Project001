@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProductDetails</title>
+    <link rel="stylesheet" href="./style/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Suwannaphum:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Suwannaphum:wght@100;300;400;700;900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Suwannaphum:wght@100;300;400;700;900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Changa:wght@200..800&family=Exo+2:ital@0;1&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Suwannaphum:wght@100;300;400;700;900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="containe">
+        <header>
+            <div id="firsthead" class="flex justify-evenly suwannaphum-regular text-sm pt-1.5 pb-1.5 items-center bg-purple-600 text-white">
+                <div id="contactAndEmail" class="flex">
+                    <svg class="inline" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                      </svg>
+                    <p class="inline pl-1">visazin128@gmail.com</p>
+                    <div id="tell" class="pl-12">
+                        <svg class="inline" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5"/>
+                        </svg>
+                        <p class="inline pl-1">(+855)973003645</p>
+                    </div>
+                </div>
+                <div id="langAndLogin" class="flex items-center">
+                    <div id="lang" class="pr-3">
+                        <select id="language" class="bg-purple-600">
+                            <option value="English" class="bg-purple-600">
+                                <p class="text-white">English</p>
+                            </option>
+                            <option value="Khmer" class="bg-purple-600">
+                                <p class="text-white">Khmer</p>
+                            </option>
+                            <option value="Korean" class="bg-purple-600">
+                                <p class="text-white">Korean</p>
+                            </option>
+                        </select>
+                    </div>
+                    <div id="curr" class="pr-2.5">
+                        <select id="currentcy" class="bg-purple-600">
+                            <option value="USD" class="bg-purple-600">
+                                <p class="text-white">USD</p>
+                            </option>
+                            <option value="RIEL" class="bg-purple-600">
+                                <p class="text-white">RIEL</p>
+                            </option>
+                            <option value="WON" class="bg-purple-600">
+                                <p class="text-white">WON</p>
+                            </option>
+                        </select>
+                    </div>
+                    <div id="login" class="pr-3">
+                        <p class="inline">Login</p>
+                        <svg class="inline" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+                        </svg>
+                    </div>
+                    <div id="wishList" class="pr-8">
+                        <p class="inline">Wishlist</p>
+                        <svg class="inline" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                        </svg>
+                    </div>
+                    <div id="cart" class="pb-1">
+                        <svg class="inline" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div id="secondhead" class="flex justify-evenly pt-3 pb-3 titillium-web-regular items-center">
+                <div id="logo" class="font-bold text-2xl pl-16">
+                    VorEhEh
+                </div>
+                <nav>
+                    <ul class="flex text-sm gap-4">
+                        <li class="text-pink-500">
+                            <p>
+                                <select id="myHome" class="bg-white">
+                                    <option value="Home" class="bg-white">
+                                        <p>
+                                            <a href="index.html">Home</a>
+                                        </p>
+                                    </option>
+                                </select>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="#">Pages</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="ProductDetails.html">Products</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="#">Blog</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="ShopList.html">Shop</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="#">Contact</a>
+                            </p>
+                        </li>
+                    </ul>
+                </nav>
+                <div id="search">
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="text" id="" class="border border-pink-300">
+                            </td>
+                            <td class=" bg-pink-500">
+                                <div id="serch" class="p-2">
+                                    <svg class="stroke-white" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                                    </svg>
+                                 </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </header>
+        <div id="body">
+            <div id="ShopListStart" class="pt-[5.5%] pb-[6.5%] pl-[20%] bg-purple-50">
+                <p class="text-2xl font-bold">Product Details</p>
+                <span class="text-xs font-medium">Home . Pages</span>
+                <span class="text-pink-500 text-xs font-medium">. Product Details</span>
+            </div>
+            <div class="pt-[5%]">
+                <div class="w-full h-80 bg-blue-100">
+                    <div>
+                        <div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div></div>
+                    </div>
+                    <div>
+                        <p>Playwood arm chair</p>
+                        <span class="text-xs text-yellow-400">&nbsp;&nbsp;&nbsp;&#9733&nbsp;&#9733&nbsp;&#9733&nbsp;&#9733&nbsp;&#9733&nbsp;<span class="text-blue-700 font-medium">(22)</span></span>
+                        <p>
+                            <span>$32.00</span>
+                            <span>$39.00</span>
+                        </p>
+                        <p>Color</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, et.</p>
+                        <p>Add To Cart</p>
+                        <p>Categories</p>
+                        <p>Tags</p>
+                        <p>Share</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="pt-[6.5%]">
+            <div id="theFoot" class="h-75 w-full bg-purple-50 pl-[16%] pr-[16%] pt-[4%] pb-[5%]">
+                <div class="firstFooter flex gap-[5%]">
+                    <div id="logoAndSignUp" class="pr-[3%]">
+                        <div class="titillium-web-regular text-2xl">
+                            <p class="font-bold pb-[8%]">VorEhEh</p>
+                        </div>
+                        <div class="flex items-center pt-[1%] pb-[7%]">
+                            <input type="text" name="" id="" placeholder="Enter Email Address" class="text-xs border-0 bg-white p-[3%] pl-[5.5%]">
+                            <button class="text-xs text-white bg-pink-600 w-28 h-7 rounded-sm">Sign Up</button>
+                        </div>
+                        <p class="text-xs text-gray-400 pb-[1.5%]">Contact info</p>
+                        <p class="text-xs text-gray-400">Lorem ipsum dolor sit, amet consectetuer.</p>
+                    </div>
+                    <div id="categories">
+                        <p class="pb-[17%] text-base font-bold">Categories</p>
+                        <p class="text-xs text-gray-400 pb-[8%]">Laptops & Computers</p>
+                        <p class="text-xs text-gray-400 pb-[8%]">Cameras & Photography</p>
+                        <p class="text-xs text-gray-400 pb-[8%]">Smart Phones & Tables</p>
+                        <p class="text-xs text-gray-400 pb-[8%]">Video Games & Consoles</p>
+                        <p class="text-xs text-gray-400">Waterproof Headphones</p>
+                    </div>
+                    <div id="customerCare">
+                        <p class="pb-[20%] text-base font-bold">Customer Core</p>
+                        <p class="text-xs text-gray-400 pb-[8%]">My Account</p>
+                        <p class="text-xs text-gray-400 pb-[8%]">Discount</p>
+                        <p class="text-xs text-gray-400 pb-[8%]">Returns</p>
+                        <p class="text-xs text-gray-400 pb-[8%]">Orders History</p>
+                        <p class="text-xs text-gray-400">Orders Tracking</p>
+                    </div>
+                    <div id="pages">
+                        <p class="pb-[16%] text-base font-bold">Pages</p>
+                        <p class="text-xs text-gray-400 pb-[8%]">Blog</p>
+                        <p class="text-xs text-gray-400 pb-[8%]">Browse The Shop</p>
+                        <p class="text-xs text-gray-400 pb-[8%]">Category</p>
+                        <p class="text-xs text-gray-400 pb-[8%]">Pre-Built Pages</p>
+                        <p class="text-xs text-gray-400 pb-[8%]">Visual Composer Elements</p>
+                        <p class="text-xs text-gray-400">WooCommerce Page</p>
+                    </div>
+                </div>
+                <div class="secondFooter">
+                    <div id="copyrigt"></div>
+                    <div id="platform"></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

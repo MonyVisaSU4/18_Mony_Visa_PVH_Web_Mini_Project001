@@ -15,6 +15,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Suwannaphum:wght@100;300;400;700;900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Changa:wght@200..800&family=Exo+2:ital@0;1&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Suwannaphum:wght@100;300;400;700;900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="container">
@@ -88,25 +91,37 @@
                             <p>
                                 <select id="myHome" class="bg-white">
                                     <option value="Home" class="bg-white">
-                                        <p>Home</p>
+                                        <p>
+                                            <a href="#">Home</a>
+                                        </p>
                                     </option>
                                 </select>
                             </p>
                         </li>
                         <li>
-                            <p>Pages</p>
+                            <p>
+                                <a href="#">Pages</a>
+                            </p>
                         </li>
                         <li>
-                            <p>Products</p>
+                            <p>
+                                <a href="ProductDetails.html">Products</a>
+                            </p>
                         </li>
                         <li>
-                            <p>Blog</p>
+                            <p>
+                                <a href="#">Blog</a>
+                            </p>
                         </li>
                         <li>
-                            <p>Shop</p>
+                            <p>
+                                <a href="ShopList.html">Shop</a>
+                            </p>
                         </li>
                         <li>
-                            <p>Contact</p>
+                            <p>
+                                <a href="#">Contact</a>
+                            </p>
                         </li>
                     </ul>
                 </nav>
@@ -189,7 +204,7 @@
                                             <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
                                           </svg>
                                     </div>
-                                    <div id="heart" class=" rounded-full p-1.5 w-fit stroke-cyan-400">
+                                    <div id="heart" class="pl-3 rounded-full p-1.5 w-fit stroke-cyan-400">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
                                             <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
                                           </svg>
@@ -284,38 +299,455 @@
                         </li>
                     </ul>
                 </div>
-                <div id="myCard">
+                <div id="myCard" class="grid grid-cols-3 place-items-center pt-10 gap-y-20 pl-10 pr-10">
                     <div id="card1">
-                        <div id="pic"></div>
-                        <p>Comfort Handy Craft</p>
-                        <p>$999.00</p>
-                        <p>$10.00</p>
+                        <div id="collePic" class="pb-2 pt-5 pr-10 pl-10 bg-gray-100 w-fit">
+                            <div id="pic" class="w-55 h-45 bg-center bg-contain bg-no-repeat bg-[url('https://parspng.com/wp-content/uploads/2022/10/chairpng.parspng.com_.png')]"></div>
+                        </div>
+                        <p class="inline changa-regular text-blue-800 text-sm border-b-2 border-b-blue-100">Comfort Handy Craft</p>
+                        <p class="inline pl-20 changa-regular text-blue-800 text-sm">$999.00</p>
+                        <p class="inline changa-regular text-red-700 text-xs line-through">$10.00</p>
                     </div>
-                    <div id="card2"></div>
-                    <div id="card3"></div>
-                    <div id="card4"></div>
-                    <div id="card5"></div>
-                    <div id="card6"></div>
+                    <div id="card2" class="relative">
+                        <div id="collePic" class="pb-2 pt-5 pr-10 pl-10 bg-white w-fit">
+                            <div id="pic" class="w-55 h-45 bg-center bg-contain bg-no-repeat bg-[url('https://parspng.com/wp-content/uploads/2022/10/chairpng.parspng.com_.png')]"></div>
+                        </div>
+                        <div id="storeSale" class="-rotate-16 absolute top-[5%]">
+                            <p class="absolute text-white text-sm left-[30%]">Sale</p>
+                            <div id="sale" class="w-18 h-6 bg-blue-700 rounded-tl-xl rounded-br-xl"></div>
+                        </div>
+                        <div id="symbolSale" class="flex flex-col absolute top-[52%] left-[5.5%]">
+                            <div id="sale" class="bg-cyan-100 stroke-purple-400 rounded-full p-1.5 w-fit">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                                  </svg>
+                            </div>
+                            <div id="heart" class=" pt-3 rounded-full p-1.5 w-fit stroke-cyan-400">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                                  </svg>
+                            </div>
+                            <div id="find" class=" rounded-full p-1.5 w-fit stroke-cyan-400">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-node-plus" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M11 4a4 4 0 1 0 0 8 4 4 0 0 0 0-8M6.025 7.5a5 5 0 1 1 0 1H4A1.5 1.5 0 0 1 2.5 10h-1A1.5 1.5 0 0 1 0 8.5v-1A1.5 1.5 0 0 1 1.5 6h1A1.5 1.5 0 0 1 4 7.5zM11 5a.5.5 0 0 1 .5.5v2h2a.5.5 0 0 1 0 1h-2v2a.5.5 0 0 1-1 0v-2h-2a.5.5 0 0 1 0-1h2v-2A.5.5 0 0 1 11 5M1.5 7a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5z"/>
+                                  </svg>
+                            </div>
+                        </div>
+                        <p class="inline changa-regular text-blue-800 text-sm border-b-2 border-b-blue-100">Comfort Handy Craft</p>
+                        <p class="inline pl-20 changa-regular text-blue-800 text-sm">$999.00</p>
+                        <p class="inline changa-regular text-red-700 text-xs line-through">$10.00</p>
+                    </div>
+                    <div id="card3">
+                        <div id="collePic" class="pb-2 pt-5 pr-10 pl-10 bg-gray-100 w-fit">
+                            <div id="pic" class="w-55 h-45 bg-center bg-contain bg-no-repeat bg-[url('https://parspng.com/wp-content/uploads/2022/10/chairpng.parspng.com_.png')]"></div>
+                        </div>
+                        <p class="inline changa-regular text-blue-800 text-sm border-b-2 border-b-blue-100">Comfort Handy Craft</p>
+                        <p class="inline pl-20 changa-regular text-blue-800 text-sm">$999.00</p>
+                        <p class="inline changa-regular text-red-700 text-xs line-through">$10.00</p>
+                    </div>
+                    <div id="card4">
+                        <div id="collePic" class="pb-2 pt-5 pr-10 pl-10 bg-gray-100 w-fit">
+                            <div id="pic" class="w-55 h-45 bg-center bg-contain bg-no-repeat bg-[url('https://parspng.com/wp-content/uploads/2022/10/chairpng.parspng.com_.png')]"></div>
+                        </div>
+                        <p class="inline changa-regular text-blue-800 text-sm border-b-2 border-b-blue-100">Comfort Handy Craft</p>
+                        <p class="inline pl-20 changa-regular text-blue-800 text-sm">$999.00</p>
+                        <p class="inline changa-regular text-red-700 text-xs line-through">$10.00</p>
+                    </div>
+                    <div id="card5">
+                        <div id="collePic" class="pb-2 pt-5 pr-10 pl-10 bg-gray-100 w-fit">
+                            <div id="pic" class="w-55 h-45 bg-center bg-contain bg-no-repeat bg-[url('https://parspng.com/wp-content/uploads/2022/10/chairpng.parspng.com_.png')]"></div>
+                        </div>
+                        <p class="inline changa-regular text-blue-800 text-sm border-b-2 border-b-blue-100">Comfort Handy Craft</p>
+                        <p class="inline pl-20 changa-regular text-blue-800 text-sm">$999.00</p>
+                        <p class="inline changa-regular text-red-700 text-xs line-through">$10.00</p>
+                    </div>
+                    <div id="card6">
+                        <div id="collePic" class="pb-2 pt-5 pr-10 pl-10 bg-gray-100 w-fit">
+                            <div id="pic" class="w-55 h-45 bg-center bg-contain bg-no-repeat bg-[url('https://parspng.com/wp-content/uploads/2022/10/chairpng.parspng.com_.png')]"></div>
+                        </div>
+                        <p class="inline changa-regular text-blue-800 text-sm border-b-2 border-b-blue-100">Comfort Handy Craft</p>
+                        <p class="inline pl-20 changa-regular text-blue-800 text-sm">$999.00</p>
+                        <p class="inline changa-regular text-red-700 text-xs line-through">$10.00</p>
+                    </div>
                 </div>
             </div>
-            <div id="whatShopedOffer"></div>
-            <div id="uniqFecture"></div>
-            <div id="treadingProduct"></div>
-            <div id="discountItem"></div>
-            <div id="topCategory"></div>
-            <div id="getLeastUpdate"></div>
-            <div id="leastedBlog"></div>
-        </div>
-        <footer>
-            <div class="firstFooter">
-                <div id="logoAndSignUp"></div>
-                <div id="categories"></div>
-                <div id="customerCare"></div>
-                <div id="pages"></div>
+            <div id="whatShopedOffer">
+                <p class="text-center font-bold text-3xl text-blue-800 pt-[3%] pb-[4%]">What Shopex Offer!</p>
+                <div id="support" class="flex justify-center gap-x-[2%] pb-[9%]">
+                    <div id="support1" class="bg-white w-50 h-55 rounded-2xl shadow-xl shadow-gray-100">
+                        <div id="iconControl" class="pl-[40%] pt-[20%]">
+                            <div id="icon" class="bg-center bg-contain bg-no-repeat w-10 h-10 bg-[url('https://cdn-icons-png.flaticon.com/512/2554/2554978.png')]"></div>
+                        </div>
+                        <p class="changa-regular text-center text-blue-700 text-base font-extrabold pt-[7%]">24/7 Support</p>
+                        <p class="changa-regular pt-[5%] text-center text-xs text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing <br>elit. Dolores minima.</p>
+                    </div>
+                    <div id="support2" class="bg-white w-50 h-55 rounded-2xl shadow-xl shadow-gray-100">
+                        <div id="iconControl" class="pl-[40%] pt-[20%]">
+                            <div id="icon" class="bg-center bg-contain bg-no-repeat w-10 h-10 bg-[url('https://cdn-icons-png.flaticon.com/512/2554/2554978.png')]"></div>
+                        </div>
+                        <p class="changa-regular text-center text-blue-700 text-base font-extrabold pt-[7%]">24/7 Support</p>
+                        <p class="changa-regular pt-[5%] text-center text-xs text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing <br>elit. Dolores minima.</p>
+                    </div>
+                    <div id="support3" class="bg-white w-50 h-55 rounded-2xl shadow-xl shadow-gray-100">
+                        <div id="iconControl" class="pl-[40%] pt-[20%]">
+                            <div id="icon" class="bg-center bg-contain bg-no-repeat w-10 h-10 bg-[url('https://cdn-icons-png.flaticon.com/512/2554/2554978.png')]"></div>
+                        </div>
+                        <p class="changa-regular text-center text-blue-700 text-base font-extrabold pt-[7%]">24/7 Support</p>
+                        <p class="changa-regular pt-[5%] text-center text-xs text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing <br>elit. Dolores minima.</p>
+                    </div>
+                    <div id="support4" class="bg-white w-50 h-55 rounded-2xl shadow-xl shadow-gray-100">
+                        <div id="iconControl" class="pl-[40%] pt-[20%]">
+                            <div id="icon" class="bg-center bg-contain bg-no-repeat w-10 h-10 bg-[url('https://cdn-icons-png.flaticon.com/512/2554/2554978.png')]"></div>
+                        </div>
+                        <p class="changa-regular text-center text-blue-700 text-base font-extrabold pt-[7%]">24/7 Support</p>
+                        <p class="changa-regular pt-[5%] text-center text-xs text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing <br>elit. Dolores minima.</p>
+                    </div>
+                </div>
             </div>
-            <div class="secondFooter">
-                <div id="copyrigt"></div>
-                <div id="platform"></div>
+            <div id="uniqFecture" class="relative">
+                <div id="mySHape"  class="pt-[7%] h-90 bg-purple-100">
+                    <div id="shap" class="absolute top-[16.5%] rotate-16 left-[23%]">
+                        <div class="w-70 h-65 bg-pink-200 rounded-b-[45%] rounded-tr-[45%] rounded-tl-[25%]"></div>
+                    </div>
+                </div>
+                <div id="sofa" class="absolute top-[7%] left-[26%]">
+                    <div class="bg-[url('https://pngimg.com/d/sofa_PNG6916.png')] bg-center bg-contain bg-no-repeat w-75 h-75"></div>
+                </div>
+                <div id="content" class="absolute top-[17%] left-[52%]">
+                    <p class="font-bold text-2xl text-blue-600 pb-[5%]">Unique Features Of leatest & <br>Treading Products</p>
+                    <div id="point1" class="flex items-center text-xs text-gray-400 pb-[2.5%]">
+                        <div class="w-2.5 h-2.5 bg-red-500 rounded-full"></div>
+                        <p class="pl-2.5">All frames constructed with hardwood solids and laminates</p>
+                    </div>
+                    <div id="point2" class="flex items-baseline text-xs text-gray-400 pb-[2.5%]">
+                        <div class="w-2.5 h-2.5 bg-blue-500 rounded-full"></div>
+                        <p class="pl-2.5">Reinforced with double wood dowels, glue, screw - nails corner blocks <br>and machine nails</p>
+                    </div>
+                    <div id="point3" class="flex items-center text-xs text-gray-400 pb-[2.5%]">
+                        <div class="w-2.5 h-2.5 bg-green-500 rounded-full"></div>
+                        <p class="pl-2.5">Arms, backs and seats are structurally reinforced</p>
+                    </div>
+                    <div id="toMyCard" class="pt-[5%] grid grid-cols-3 grid-rows-2">
+                        <button class="pr-[6%] pl-[2.5%] pt-[1.5%] pb-[2%] bg-pink-500 row-span-2"><p class="text-xs text-white">Add to Card</p></button>
+                        <p class="text-xs text-blue-700 font-bold col-span-2 pl-3">B & B Italian Sofa</p>
+                        <p class="text-xs pl-3">$32.00</p>
+                    </div>
+                </div>
+            </div>
+            <div id="treadingProduct">
+                <p class="pt-[6%] pb-[3%] font-bold text-3xl text-blue-800 text-center">Treading Products</p>
+                <div id="card" class="flex justify-center gap-6">
+                    <div id="card1" class="shadow-xl shadow-gray-100">
+                        <div class="rounded-lg border-8 border-white">
+                            <div class="bg-gray-100 p-5">
+                                <div class="w-35 h-35 bg-center bg-contain bg-no-repeat bg-[url('https://pngimg.com/d/chair_PNG6909.png')]"></div>
+                            </div>
+                        </div>
+                        <p class="text-center text-blue-700 font-bold text-sm">Cantilever chair</p>
+                        <p class="text-center pb-3">
+                            <span class="text-blue-700 text-sm font-bold">$26.00</span>
+                            <span class="text-xs text-gray-400 line-through">$46.00</span>
+                        </p>
+                    </div>  
+                    <div id="card2" class="shadow-xl shadow-gray-100">
+                        <div class="rounded-lg border-8 border-white">
+                            <div class="bg-gray-100 p-5">
+                                <div class="w-35 h-35 bg-center bg-contain bg-no-repeat bg-[url('https://pngimg.com/d/chair_PNG6909.png')]"></div>
+                            </div>
+                        </div>
+                        <p class="text-center text-blue-700 font-bold text-sm">Cantilever chair</p>
+                        <p class="text-center pb-3">
+                            <span class="text-blue-700 text-sm font-bold">$26.00</span>
+                            <span class="text-xs text-gray-400 line-through">$46.00</span>
+                        </p>
+                    </div>  
+                    <div id="card3" class="shadow-xl shadow-gray-100">
+                        <div class="rounded-lg border-8 border-white">
+                            <div class="bg-gray-100 p-5">
+                                <div class="w-35 h-35 bg-center bg-contain bg-no-repeat bg-[url('https://pngimg.com/d/chair_PNG6909.png')]"></div>
+                            </div>
+                        </div>
+                        <p class="text-center text-blue-700 font-bold text-sm">Cantilever chair</p>
+                        <p class="text-center pb-3">
+                            <span class="text-blue-700 text-sm font-bold">$26.00</span>
+                            <span class="text-xs text-gray-400 line-through">$46.00</span>
+                        </p>
+                    </div>  
+                    <div id="card4" class="shadow-xl shadow-gray-100">
+                        <div class="rounded-lg border-8 border-white">
+                            <div class="bg-gray-100 p-5">
+                                <div class="w-35 h-35 bg-center bg-contain bg-no-repeat bg-[url('https://pngimg.com/d/chair_PNG6909.png')]"></div>
+                            </div>
+                        </div>
+                        <p class="text-center text-blue-700 font-bold text-sm">Cantilever chair</p>
+                        <p class="text-center pb-3">
+                            <span class="text-blue-700 text-sm font-bold">$26.00</span>
+                            <span class="text-xs text-gray-400 line-through">$46.00</span>
+                        </p>
+                    </div>  
+                </div>
+                <div id="dis" class="pt-6 flex justify-center gap-x-[2%] pb-[7%]">
+                    <div id="dis1" class="bg-pink-50 p-[2%] w-80 h-53">
+                        <p class="text-lg text-blue-800 font-bold">23% off in all products</p>
+                        <a href="#" class="text-pink-500 text-xs underline">Shop Now</a>
+                        <div id="pic" class="pl-[55%]">
+                            <div id="subPic" class="w-30 h-30 bg-contain bg-center bg-no-repeat bg-[url('https://pics.clipartpng.com/Antique_Wall_ClockPNG_Clip_Art-1128.png')]"></div>
+                        </div>
+                    </div>
+                    <div id="dis2" class="bg-purple-50 p-[2%] w-80 h-53">
+                        <p class="text-lg text-blue-800 font-bold">23% off in all products</p>
+                        <a href="#" class="text-pink-500 text-xs underline">View Collection</a>
+                        <div id="pic" class="pl-[55%]">
+                            <div id="subPic" class="w-30 h-30 bg-contain bg-center bg-no-repeat bg-[url('https://static.vecteezy.com/system/resources/previews/046/353/440/non_2x/old-treasure-chest-png.png')]"></div>
+                        </div>
+                    </div>
+                    <div id="dis3" class="w-60 h-53 flex flex-col justify-between">
+                        <div id="subdis1" class="flex">
+                            <div id="pic" class="p-[1%] bg-gray-50 pl-[5.5%] pr-[5.5%]">
+                                <div id="subPic" class="w-15 h-15 bg-center bg-contain bg-no-repeat bg-[url('https://png.pngtree.com/png-clipart/20240319/original/pngtree-3d-illustration-of-a-school-chair-png-image_14628413.png')]"></div>
+                            </div>
+                            <div class="flex flex-col justify-center pl-[2.5%]">
+                                <p class="text-blue-800 text-sm">Executive Seat chair</p>
+                                <p class="text-blue-800 text-xs line-through">$32.00</p>
+                            </div>
+                        </div>
+                        <div id="subdis2" class="flex">
+                            <div id="pic" class="p-[1%] bg-gray-50 pl-[5.5%] pr-[5.5%]">
+                                <div id="subPic" class="w-15 h-15 bg-center bg-contain bg-no-repeat bg-[url('https://png.pngtree.com/png-clipart/20240319/original/pngtree-3d-illustration-of-a-school-chair-png-image_14628413.png')]"></div>
+                            </div>
+                            <div class="flex flex-col justify-center pl-[2.5%]">
+                                <p class="text-blue-800 text-sm">Executive Seat chair</p>
+                                <p class="text-blue-800 text-xs line-through">$32.00</p>
+                            </div>
+                        </div>
+                        <div id="subdis3" class="flex">
+                            <div id="pic" class="p-[1%] bg-gray-50 pl-[5.5%] pr-[5.5%]">
+                                <div id="subPic" class="w-15 h-15 bg-center bg-contain bg-no-repeat bg-[url('https://png.pngtree.com/png-clipart/20240319/original/pngtree-3d-illustration-of-a-school-chair-png-image_14628413.png')]"></div>
+                            </div>
+                            <div class="flex flex-col justify-center pl-[2.5%]">
+                                <p class="text-blue-800 text-sm">Executive Seat chair</p>
+                                <p class="text-blue-800 text-xs line-through">$32.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="discountItem">
+                <p class="font-bold text-3xl text-blue-800 text-center pb-[1.5%]">Discount Item</p>
+                <div id="link" class="text-center text-sm">
+                    <a href="#" class="text-pink-500 underline">Wood Chair</a> 
+                    <a href="#" class="pl-[0.25%] font-extrabold text-pink-500"> .</a>
+                    <a href="#" class="pl-[1%] pr-[1%] text-blue-800">Plastic Chair</a>
+                    <a href="#" class="pl-[1%] pr-[1%] text-blue-800">Sofa Collection</a>
+                </div>
+                <div id="contentAndPic" class="pt-[5%] flex relative justify-center gap-x-[4%] items-center">
+                    <div>
+                        <p class="text-2xl text-blue-800 font-bold pb-[5%]">20% Discount Of All Products</p>
+                        <p class="text-pink-500 text-lg pb-[4%]">Eams Sofa Compact</p>
+                        <p class="text-sm text-gray-400 pb-[4%]">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Harum reprehenderit sit ullam nesciunt.
+                        </p>
+                        <div class="text-gray-400 text-xs flex pb-[1.5%]">
+                            <p>&#10004 Material expose like metals</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&#10004 Clear lines and geomatric figures</p>
+                        </div>
+                        <div  class="text-gray-400 text-xs flex">
+                            <p>&#10004 Simple neutral colours</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004 Material expose like metals</p>
+                        </div>
+                        <div class="pb-[8%]"></div>
+                        <button class="bg-pink-500 text-white text-sm p-[3%] pr-[18%] pl-[10%] pb-[5%]">Shop Now</button>
+                    </div>
+                    <div class="pl-[5%]">
+                        <div class="bg-pink-100 w-70 h-80 rounded-full relative">
+                            <div class="absolute w-70 h-70 bg-center bg-contain bg-no-repeat bg-[url('https://purepng.com/public/uploads/large/purepng.com-rolling-chairchairfurnitureluxurymodernbusinessobjectwheelofficeblackrollingleadershipequipmentarmchairobjectsrolling-chair-8215239878440aa1i.png')]"></div>
+                        </div>
+                    </div>
+                    <div class="pb-[20%]"></div>
+                </div>
+            </div>
+            <div id="topCategory">
+                <p class="pb-[4%] pt-[5%] text-center text-3xl text-blue-800 font-bold">
+                    Top Categories
+                </p>
+                <div id="circleCard" class="flex justify-center gap-[2.5%] relative">
+                    <div class="w-fit">
+                        <div class="w-55 h-55 rounded-full bg-purple-500 absolute translate-y-1 -translate-x-1"></div>
+                        <div class="w-55 h-55 rounded-full bg-gray-50 relative">
+                            <div class="w-28 absolute h-37 bg-center bg-contain bg-no-repeat bg-[url('https://www.freeiconspng.com/uploads/classic-chair-png-3.png')] translate-x-1/2 translate-y-1/2 -top-[12%]">
+                                <div class="absolute top-[86%] left-[16%]">
+                                    <button class="bg-green-400 pt-[1.5%] pb-[1.5%] pr-[3%] pl-[3%] text-[10px] text-white w-19 h-5">
+                                        View Shop
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-sm pt-5 text-center">Mini LCW Chair</p>
+                        <p class="text-xs pt-1.5 text-center">$56.00</p>
+                    </div>
+                    <div class="w-fit">
+                        <div class="w-55 h-55 rounded-full bg-gray-50 relative">
+                            <div class="w-28 absolute h-37 bg-center bg-contain bg-no-repeat bg-[url('https://www.freeiconspng.com/uploads/classic-chair-png-3.png')] translate-x-1/2 translate-y-1/2 -top-[12%]"></div>
+                        </div>
+                        <p class="text-sm pt-5 text-center">Mini LCW Chair</p>
+                        <p class="text-xs pt-1.5 text-center">$56.00</p>
+                    </div>
+                    <div class="w-fit">
+                        <div class="w-55 h-55 rounded-full bg-gray-50 relative">
+                            <div class="w-28 absolute h-37 bg-center bg-contain bg-no-repeat bg-[url('https://www.freeiconspng.com/uploads/classic-chair-png-3.png')] translate-x-1/2 translate-y-1/2 -top-[12%]"></div>
+                        </div>
+                        <p class="text-sm pt-5 text-center">Mini LCW Chair</p>
+                        <p class="text-xs pt-1.5 text-center">$56.00</p>
+                    </div>
+                    <div class="w-fit">
+                        <div class="w-55 h-55 rounded-full bg-gray-50 relative">
+                            <div class="w-28 absolute h-37 bg-center bg-contain bg-no-repeat bg-[url('https://www.freeiconspng.com/uploads/classic-chair-png-3.png')] translate-x-1/2 translate-y-1/2 -top-[12%]"></div>
+                        </div>
+                        <p class="text-sm pt-5 text-center">Mini LCW Chair</p>
+                        <p class="text-xs pt-1.5 text-center">$56.00</p>
+                    </div>
+                </div>
+                <div class="pt-1.5">
+                    <p class="text-center">
+                        <span class="text-[5px] border-pink-500 text-transparent bg-pink-500 border rounded-full">&#9899</span>
+                        <span class="pl-2"></span>
+                        <span class="text-[5px] border-pink-500 text-transparent border rounded-full">&#9899</span>
+                        <span class="pl-2"></span>
+                        <span class="text-[5px] border-pink-500 text-transparent border rounded-full">&#9899</span>
+                    </p>
+                </div>
+            </div>
+            <div id="getLeastUpdate" class="pt-[8%]">
+                <div class="flex flex-col items-center bg-center bg-cover bg-[url('https://www.brightonhomes.net.au/sites/default/files/styles/hero_image/public/what-is-a-rumpus-room.jpg?itok=tcUqhla-')] bg-no-repeat pt-[8%] pb-[4%]">
+                    <p class="leading-[155%] pb-[2%] text-center text-2xl text-blue-800 font-bold">Get Leasted Update By Subscribe <br> Our Newslater</p>
+                    <button class="bg-pink-500 w-fit text-white pl-[1.9%] pr-[3.5%] pt-[0.8%] pb-[0.8%] text-xs">
+                        Shop Now
+                    </button>
+                </div>
+            </div>
+            <div id="branding" class="flex justify-center gap-[0.5%] pt-[7%]">
+                <div class="bg-[url('https://cdn.freebiesupply.com/logos/large/2x/louis-vuitton-1-logo-png-transparent.png')] bg-contain bg-no-repeat bg-center w-40 h-10"></div>
+                <div class="bg-red-300 bg-contain bg-no-repeat bg-center w-40 h-10"></div>
+                <div class="bg-red-300 bg-contain bg-no-repeat bg-center w-40 h-10"></div>
+                <div class="bg-red-300 bg-contain bg-no-repeat bg-center w-40 h-10"></div>
+                <div class="bg-red-300 bg-contain bg-no-repeat bg-center w-40 h-10"></div>
+            </div>
+            <div id="leastedBlog" class="pt-[8%]">
+                <p class="text-center text-3xl text-blue-800 font-bold pb-[5%]">Leatest Blog</p>
+                <div id="card" class="flex justify-center gap-[3%]">
+                    <div class="bg-white w-70 rounded-lg shadow-xl">
+                        <div class="rounded-t-lg shadow-xl w-70 h-50 bg-center bg-cover bg-no-repeat bg-[url('https://www.southernliving.com/thmb/_D9Bg0Owp7Jh6_V4kQoINDkKTSc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/27566_IdeaHouse15660F-1905e09febe248c4ab47eff5cdbf468d-62d993a843b24796aab125080d8482cf.jpg')]"></div>
+                        <div id="content" class="p-[3.5%]">
+                            <p class="text-[10px] text-blue-800">
+                                <span>
+                                    <span class="w-5 h-6 bg-center bg-contain bg-no-repeat bg-[url('https://cdn-icons-png.flaticon.com/512/1014/1014859.png')] text-transparent">fff</span>
+                                    <span class="pl-[1%] pr-[10%]">SaberAli</span>
+                                </span>
+                                <span>
+                                    <span class="w-5 h-6 bg-center bg-contain bg-no-repeat bg-[url('https://cdn-icons-png.flaticon.com/512/3652/3652191.png')] text-transparent">fff</span>
+                                    <span class="pl-[1%]">21 August,2020</span>
+                                </span>
+                            </p>
+                            <p class="text-sm text-blue-800 font-bold pt-[5%] pb-[3%]">Top essential treads in 2021</p>
+                            <p class="text-xs text-gray-500 pb-[5%] leading-[160%]">
+                                More off this less hello samlande lied much over tightly circa horse taped mightly
+                            </p>
+                            <a href="#" class="text-sm text-blue-900 underline">
+                                <p>Read More</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bg-white w-70 rounded-lg shadow-xl">
+                        <div class="rounded-t-lg shadow-xl w-70 h-50 bg-center bg-cover bg-no-repeat bg-[url('https://www.southernliving.com/thmb/_D9Bg0Owp7Jh6_V4kQoINDkKTSc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/27566_IdeaHouse15660F-1905e09febe248c4ab47eff5cdbf468d-62d993a843b24796aab125080d8482cf.jpg')]"></div>
+                        <div id="content" class="p-[3.5%]">
+                            <p class="text-[10px] text-blue-800">
+                                <span>
+                                    <span class="w-5 h-6 bg-center bg-contain bg-no-repeat bg-[url('https://cdn-icons-png.flaticon.com/512/1014/1014859.png')] text-transparent">fff</span>
+                                    <span class="pl-[1%] pr-[10%]">SaberAli</span>
+                                </span>
+                                <span>
+                                    <span class="w-5 h-6 bg-center bg-contain bg-no-repeat bg-[url('https://cdn-icons-png.flaticon.com/512/3652/3652191.png')] text-transparent">fff</span>
+                                    <span class="pl-[1%]">21 August,2020</span>
+                                </span>
+                            </p>
+                            <p class="text-sm text-pink-500 font-bold pt-[5%] pb-[3%]">Top essential treads in 2021</p>
+                            <p class="text-xs text-gray-500 pb-[5%] leading-[160%]">
+                                More off this less hello samlande lied much over tightly circa horse taped mightly
+                            </p>
+                            <a href="#" class="text-sm text-pink-500 underline">
+                                <p>Read More</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bg-white w-70 rounded-lg shadow-xl">
+                        <div class="rounded-t-lg shadow-xl w-70 h-50 bg-center bg-cover bg-no-repeat bg-[url('https://www.southernliving.com/thmb/_D9Bg0Owp7Jh6_V4kQoINDkKTSc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/27566_IdeaHouse15660F-1905e09febe248c4ab47eff5cdbf468d-62d993a843b24796aab125080d8482cf.jpg')]"></div>
+                        <div id="content" class="p-[3.5%]">
+                            <p class="text-[10px] text-blue-800">
+                                <span>
+                                    <span class="w-5 h-6 bg-center bg-contain bg-no-repeat bg-[url('https://cdn-icons-png.flaticon.com/512/1014/1014859.png')] text-transparent">fff</span>
+                                    <span class="pl-[1%] pr-[10%]">SaberAli</span>
+                                </span>
+                                <span>
+                                    <span class="w-5 h-6 bg-center bg-contain bg-no-repeat bg-[url('https://cdn-icons-png.flaticon.com/512/3652/3652191.png')] text-transparent">fff</span>
+                                    <span class="pl-[1%]">21 August,2020</span>
+                                </span>
+                            </p>
+                            <p class="text-sm text-blue-800 font-bold pt-[5%] pb-[3%]">Top essential treads in 2021</p>
+                            <p class="text-xs text-gray-500 pb-[5%] leading-[160%]">
+                                More off this less hello samlande lied much over tightly circa horse taped mightly
+                            </p>
+                            <a href="#" class="text-sm text-blue-900 underline">
+                                <p>Read More</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="pt-[6.5%]">
+            <div id="theFoot" class="h-75 w-full bg-purple-50 pl-[16%] pr-[16%] pt-[4%] pb-[5%]">
+                <div class="firstFooter flex gap-[5%]">
+                    <div id="logoAndSignUp" class="pr-[3%]">
+                        <div class="titillium-web-regular text-2xl">
+                            <p class="font-bold pb-[8%]">VorEhEh</p>
+                        </div>
+                        <div class="flex items-center pt-[1%] pb-[7%]">
+                            <input type="text" name="" id="" placeholder="Enter Email Address" class="text-xs border-0 bg-white p-[3%] pl-[5.5%]">
+                            <button class="text-xs text-white bg-pink-600 w-28 h-7 rounded-sm">Sign Up</button>
+                        </div>
+                        <p class="text-xs text-gray-400 pb-[1.5%]">Contact info</p>
+                        <p class="text-xs text-gray-400">Lorem ipsum dolor sit, amet consectetuer.</p>
+                    </div>
+                    <div id="categories">
+                        <p class="pb-[17%] text-base font-bold">Categories</p>
+                        <p class="text-xs text-gray-400 pb-[8%]">Laptops & Computers</p>
+                        <p class="text-xs text-gray-400 pb-[8%]">Cameras & Photography</p>
+                        <p class="text-xs text-gray-400 pb-[8%]">Smart Phones & Tables</p>
+                        <p class="text-xs text-gray-400 pb-[8%]">Video Games & Consoles</p>
+                        <p class="text-xs text-gray-400">Waterproof Headphones</p>
+                    </div>
+                    <div id="customerCare">
+                        <p class="pb-[20%] text-base font-bold">Customer Core</p>
+                        <p class="text-xs text-gray-400 pb-[8%]">My Account</p>
+                        <p class="text-xs text-gray-400 pb-[8%]">Discount</p>
+                        <p class="text-xs text-gray-400 pb-[8%]">Returns</p>
+                        <p class="text-xs text-gray-400 pb-[8%]">Orders History</p>
+                        <p class="text-xs text-gray-400">Orders Tracking</p>
+                    </div>
+                    <div id="pages">
+                        <p class="pb-[16%] text-base font-bold">Pages</p>
+                        <p class="text-xs text-gray-400 pb-[8%]">Blog</p>
+                        <p class="text-xs text-gray-400 pb-[8%]">Browse The Shop</p>
+                        <p class="text-xs text-gray-400 pb-[8%]">Category</p>
+                        <p class="text-xs text-gray-400 pb-[8%]">Pre-Built Pages</p>
+                        <p class="text-xs text-gray-400 pb-[8%]">Visual Composer Elements</p>
+                        <p class="text-xs text-gray-400">WooCommerce Page</p>
+                    </div>
+                </div>
+                <div class="secondFooter">
+                    <div id="copyrigt"></div>
+                    <div id="platform"></div>
+                </div>
             </div>
         </footer>
     </div>
