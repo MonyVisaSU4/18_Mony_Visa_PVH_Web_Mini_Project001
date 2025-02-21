@@ -530,32 +530,8 @@
   .static {
     position: static;
   }
-  .-top-\[\%\] {
-    top: calc(% * -1);
-  }
-  .-top-\[1\%\] {
-    top: calc(1% * -1);
-  }
-  .-top-\[5\%\] {
-    top: calc(5% * -1);
-  }
-  .-top-\[10\%\] {
-    top: calc(10% * -1);
-  }
   .-top-\[12\%\] {
     top: calc(12% * -1);
-  }
-  .-top-\[13\%\] {
-    top: calc(13% * -1);
-  }
-  .-top-\[14\%\] {
-    top: calc(14% * -1);
-  }
-  .-top-\[16\%\] {
-    top: calc(16% * -1);
-  }
-  .-top-\[18\%\] {
-    top: calc(18% * -1);
   }
   .-top-\[20\%\] {
     top: calc(20% * -1);
@@ -568,15 +544,6 @@
   }
   .top-\[-30\%\] {
     top: -30%;
-  }
-  .top-\[0\] {
-    top: 0;
-  }
-  .top-\[1\%\] {
-    top: 1%;
-  }
-  .top-\[2\%\] {
-    top: 2%;
   }
   .top-\[5\%\] {
     top: 5%;
@@ -611,59 +578,11 @@
   .top-\[90\%\] {
     top: 90%;
   }
-  .-left-0 {
-    left: calc(var(--spacing) * -0);
-  }
-  .-left-2 {
-    left: calc(var(--spacing) * -2);
-  }
-  .-left-\[1\%\] {
-    left: calc(1% * -1);
-  }
-  .-left-\[2\%\] {
-    left: calc(2% * -1);
-  }
-  .-left-\[3\%\] {
-    left: calc(3% * -1);
-  }
-  .-left-\[4\%\] {
-    left: calc(4% * -1);
-  }
-  .-left-\[5\%\] {
-    left: calc(5% * -1);
-  }
   .-left-\[6\%\] {
     left: calc(6% * -1);
   }
-  .-left-\[7\%\] {
-    left: calc(7% * -1);
-  }
-  .-left-\[8\%\] {
-    left: calc(8% * -1);
-  }
-  .-left-\[10\%\] {
-    left: calc(10% * -1);
-  }
-  .left-0 {
-    left: calc(var(--spacing) * 0);
-  }
-  .left-\[\%\] {
-    left: %;
-  }
   .left-\[-3\%\] {
     left: -3%;
-  }
-  .left-\[1\%\] {
-    left: 1%;
-  }
-  .left-\[1\] {
-    left: 1;
-  }
-  .left-\[2\%\] {
-    left: 2%;
-  }
-  .left-\[3\%\] {
-    left: 3%;
   }
   .left-\[5\%\] {
     left: 5%;
@@ -673,9 +592,6 @@
   }
   .left-\[7\%\] {
     left: 7%;
-  }
-  .left-\[9\%\] {
-    left: 9%;
   }
   .left-\[16\%\] {
     left: 16%;
@@ -770,6 +686,18 @@
   .h-10 {
     height: calc(var(--spacing) * 10);
   }
+  .h-100 {
+    height: calc(var(--spacing) * 100);
+  }
+  .h-15 {
+    height: calc(var(--spacing) * 15);
+  }
+  .h-20 {
+    height: calc(var(--spacing) * 20);
+  }
+  .h-30 {
+    height: calc(var(--spacing) * 30);
+  }
   .h-35 {
     height: calc(var(--spacing) * 35);
   }
@@ -809,18 +737,6 @@
   .h-90 {
     height: calc(var(--spacing) * 90);
   }
-  .h-100 {
-    height: calc(var(--spacing) * 100);
-  }
-  .h-15 {
-    height: calc(var(--spacing) * 15);
-  }
-  .h-20 {
-    height: calc(var(--spacing) * 20);
-  }
-  .h-30 {
-    height: calc(var(--spacing) * 30);
-  }
   .h-120 {
     height: calc(var(--spacing) * 120);
   }
@@ -845,8 +761,11 @@
   .w-10 {
     width: calc(var(--spacing) * 10);
   }
-  .w-34 {
-    width: calc(var(--spacing) * 34);
+  .w-70 {
+    width: calc(var(--spacing) * 70);
+  }
+  .w-80 {
+    width: calc(var(--spacing) * 80);
   }
   .w-100 {
     width: calc(var(--spacing) * 100);
@@ -866,12 +785,6 @@
   .w-40 {
     width: calc(var(--spacing) * 40);
   }
-  .w-70 {
-    width: calc(var(--spacing) * 70);
-  }
-  .w-80 {
-    width: calc(var(--spacing) * 80);
-  }
   .w-120 {
     width: calc(var(--spacing) * 120);
   }
@@ -886,6 +799,9 @@
   }
   .w-30 {
     width: calc(var(--spacing) * 30);
+  }
+  .w-34 {
+    width: calc(var(--spacing) * 34);
   }
   .w-35 {
     width: calc(var(--spacing) * 35);
@@ -1106,6 +1022,9 @@
   .border-b-blue-100 {
     border-bottom-color: var(--color-blue-100);
   }
+  .bg-\[url\] {
+    background-color: url;
+  }
   .bg-blue-500 {
     background-color: var(--color-blue-500);
   }
@@ -1175,14 +1094,8 @@
   .bg-white {
     background-color: var(--color-white);
   }
-  .bg-yellow-400 {
-    background-color: var(--color-yellow-400);
-  }
   .bg-yellow-500 {
     background-color: var(--color-yellow-500);
-  }
-  .bg-\[url\(\'\'\)\] {
-    background-image: url('');
   }
   .bg-\[url\(\'https\:\/\/areastore\.com\/cdn\/shop\/files\/79639-1\.png\?v\=1715089489\'\)\] {
     background-image: url('https://areastore.com/cdn/shop/files/79639-1.png?v=1715089489');
@@ -1246,6 +1159,9 @@
   }
   .bg-\[url\(\'https\:\/\/rosepng\.com\/wp-content\/uploads\/2025\/02\/s11728_revolving_chair_isolated_on_white_background_2871ba48-28ab-49d4-bf1a-03af4b5c3063_3-photoroom\.png\'\)\] {
     background-image: url('https://rosepng.com/wp-content/uploads/2025/02/s11728_revolving_chair_isolated_on_white_background_2871ba48-28ab-49d4-bf1a-03af4b5c3063_3-photoroom.png');
+  }
+  .bg-\[url\(\'https\:\/\/st\.hzcdn\.com\/simgs\/3eb1952406f72e55_14-5330\/_\.jpg\'\)\] {
+    background-image: url('https://st.hzcdn.com/simgs/3eb1952406f72e55_14-5330/_.jpg');
   }
   .bg-\[url\(\'https\:\/\/static\.vecteezy\.com\/system\/resources\/previews\/016\/716\/450\/non_2x\/tiktok-icon-free-png\.png\'\)\] {
     background-image: url('https://static.vecteezy.com/system/resources/previews/016/716/450/non_2x/tiktok-icon-free-png.png');
@@ -1313,6 +1229,12 @@
   .bg-\[url\(\'https\:\/\/www\.southernliving\.com\/thmb\/_D9Bg0Owp7Jh6_V4kQoINDkKTSc\=\/1500x0\/filters\:no_upscale\(\)\:max_bytes\(150000\)\:strip_icc\(\)\/27566_IdeaHouse15660F-1905e09febe248c4ab47eff5cdbf468d-62d993a843b24796aab125080d8482cf\.jpg\'\)\] {
     background-image: url('https://www.southernliving.com/thmb/_D9Bg0Owp7Jh6_V4kQoINDkKTSc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/27566_IdeaHouse15660F-1905e09febe248c4ab47eff5cdbf468d-62d993a843b24796aab125080d8482cf.jpg');
   }
+  .bg-\[url\(\'https\:\/\/www\.vanorohotel\.com\/wp-content\/uploads\/2021\/07\/drz-vanoro_6737\.jpg\'\)\] {
+    background-image: url('https://www.vanorohotel.com/wp-content/uploads/2021/07/drz-vanoro_6737.jpg');
+  }
+  .bg-\[url\(\)\] {
+    background-image: url();
+  }
   .bg-contain {
     background-size: contain;
   }
@@ -1324,9 +1246,6 @@
   }
   .bg-no-repeat {
     background-repeat: no-repeat;
-  }
-  .fill-black {
-    fill: var(--color-black);
   }
   .stroke-cyan-400 {
     stroke: var(--color-cyan-400);
@@ -1387,9 +1306,6 @@
   }
   .pt-25 {
     padding-top: calc(var(--spacing) * 25);
-  }
-  .pt-\[\%\] {
-    padding-top: %;
   }
   .pt-\[0\.5\%\] {
     padding-top: 0.5%;
@@ -1457,14 +1373,8 @@
   .pr-10 {
     padding-right: calc(var(--spacing) * 10);
   }
-  .pr-\[\%\] {
-    padding-right: %;
-  }
   .pr-\[1\%\] {
     padding-right: 1%;
-  }
-  .pr-\[2\%\] {
-    padding-right: 2%;
   }
   .pr-\[3\%\] {
     padding-right: 3%;
